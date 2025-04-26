@@ -1,0 +1,462 @@
+:root {
+  --primary: #ed1c24;
+  --primary-gray: rgb(24, 24, 24);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: black;
+}
+.menu-icon {
+  display: block;
+}
+.logo-container {
+  width: 100px;
+}
+.logo-container > img {
+  width: 100%;
+}
+.order-online-button {
+  background-color: var(--primary);
+  padding: 8px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.get-franchise-button {
+  background-color: black;
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+  font-size: small;
+  display: none;
+  align-items: center;
+}
+.nav-links-container {
+  display: flex;
+  gap: 10px;
+}
+.nav-links {
+  color: white;
+  list-style: none;
+  display: none;
+  align-items: center;
+  font-size: large;
+  gap: 30px;
+  margin: 0;
+}
+.navlink-a {
+  text-decoration: none;
+  color: white;
+}
+.brands-section {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-direction: column;
+  padding: 50px 0 50px;
+}
+.slogan-container {
+  width: 70vw;
+}
+.slogan-container > h2,
+.slogan-container > p {
+  text-align: center;
+}
+.brand-cards-container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 20px;
+}
+.brand-img-container {
+  width: 250px;
+  background-color: white;
+  padding: 20px 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.brand-img-container > img {
+  width: 100%;
+  height: 94px;
+}
+.brand-card-body {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.card-button {
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 1px solid rgba(245, 245, 245, 0.5);
+  color: white;
+}
+.franchise-section-first {
+  background-color: rgb(24, 24, 24);
+  padding: 50px 10px;
+}
+.franchise-section-third {
+  background-color: rgb(24, 24, 24);
+  padding: 50px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.franchise-section-second {
+  background-color: black;
+  position: relative;
+  padding: 50px 0;
+}
+.franchise-second-card-location {
+  color: var(--primary);
+  font-weight: 100;
+  font-family: monospace;
+  letter-spacing: 6px;
+}
+.franchise-village-card {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.franchise-village-card-body {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.franchise-village-card-img-container {
+  flex: 0.5;
+}
+.franchise-village-card-body {
+  flex: 0.5;
+}
+.franchise-section-second-cards-container {
+  padding: 50px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.franchise-section-second-bg-img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.franchise-section-second-card-img-container {
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.franchise-second-card-body {
+  color: white;
+  text-align: center;
+  padding: 0 50px;
+}
+.franchise-header-bg-image {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  height: 100%;
+}
+.btn-green {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+.btn-green:hover {
+  background-color: #000;
+}
+.franchise-section-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+.franchise-card-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.franchise-card {
+  color: white;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.franchise-card-details-container {
+  padding: 20px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.franchise-card-img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.franchise-card-img-container > img {
+  width: 100%;
+}
+.franchise-location {
+  color: var(--primary);
+  font-weight: 100;
+  font-family: monospace;
+  letter-spacing: 6px;
+}
+.franchise-card-tel-link {
+  text-decoration: none;
+  color: white;
+}
+.btn-black {
+  background-color: black;
+}
+.btn-gray {
+  background-color: var(--primary-gray);
+}
+.franchise-section-second-card {
+  width: 100%;
+}
+.icon-wrapper {
+  padding: 5px;
+  border-radius: 50%;
+  background-color: white;
+  color: var(--primary);
+}
+.icon-button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.card-button-container {
+  display: flex;
+  justify-content: center;
+}
+.card-button-container-second {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.hide-on-sm {
+  display: none;
+}
+.village-address {
+  text-align: center;
+}
+.franchise-opening-sooon-section {
+  background-color: #000;
+  padding: 50px 0;
+}
+.franchise-opening-soon-cards-container {
+  display: flex;
+  padding: 50px;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+.opening-soon-card {
+  background-color: #fff;
+  width: 350px;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.footer-copyright {
+  background-color: #000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 50px;
+}
+.footer {
+  background-color: rgb(24, 24, 24);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+.footer-description {
+  max-width: 350px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+}
+.terms {
+  display: flex;
+  gap: 20px;
+}
+.terms-link {
+  text-decoration: none;
+  color: white;
+}
+.footer-logo-container {
+  width: 200px;
+}
+.footer-logo {
+  width: 100%;
+}
+.site-links-header {
+  color: white;
+  margin-bottom: 20px;
+}
+.site-links-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.site-links {
+  text-decoration: none;
+  color: #fff;
+}
+.contact {
+  color: #fff;
+  width: 250px;
+}
+.social {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.apps-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.fab {
+  color: #fff;
+  padding: 10px;
+  background-color: var(--primary);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .social {
+    align-items: flex-start;
+    margin-top: 0;
+  }
+  .footer-copyright {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer {
+    padding: 50px;
+    justify-content: normal;
+    gap: 50px;
+    flex-direction: row;
+  }
+  .footer-description {
+    text-align: left;
+    align-items: flex-start;
+  }
+  .village-address {
+    text-align: left;
+  }
+  .menu-icon {
+    display: none;
+  }
+  .order-online-button {
+    padding: 10px 15px;
+  }
+  .get-franchise-button {
+    display: flex;
+  }
+  .nav-links {
+    display: flex;
+  }
+  .slogan-container {
+    width: 50vw;
+  }
+  .franchise-card {
+    display: flex;
+    padding: 0 40px;
+  }
+  .franchise-card-details-container {
+    flex: 0.5;
+  }
+  .franchise-card-img-container {
+    flex: 0.5;
+  }
+  .franchise-card-details-container {
+    text-align: left;
+    padding: 0;
+  }
+  .card-button-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .franchise-card {
+    flex-direction: row;
+  }
+  .hide-on-lg {
+    display: none;
+  }
+  .hide-on-sm {
+    display: block;
+  }
+  .franchise-header-bg-image {
+    height: auto;
+  }
+  .navbar {
+    padding: 10px 70px;
+  }
+  .logo-container {
+    width: 150px;
+  }
+  .franchise-section-second-card {
+    max-width: 350px;
+  }
+  .franchise-second-card-body {
+    padding: 0;
+  }
+  .franchise-village-card {
+    flex-direction: row;
+    padding: 50px;
+  }
+  .franchise-village-card-body {
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
